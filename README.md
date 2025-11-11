@@ -1,4 +1,5 @@
-## 🩺 **의료장벽이 건강상태에 미치는 영향 분석** - 성향점수 매칭 기반 로지스틱 회귀분석
+## 🩺 **의료장벽이 건강상태에 미치는 영향 분석** 
+### 성향점수 매칭(PSM) 기반 로지스틱 회귀분석
 
 ![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
 ![IDE](https://img.shields.io/badge/RStudio-75AADB?logo=rstudio&logoColor=white)
@@ -46,8 +47,9 @@
      src="https://raw.githubusercontent.com/Hyunseok-C/healthcare-barrier-psm-analysis/main/model_final.png" 
      width="340px"/>
 
+
 | 🔺 건강이 나쁠 확률 높이는(↑) 요인 | 🔻 건강이 나쁠 확률 낮추는(↓) 요인 |
-|----------------------------------|----------------------------------|
+|:--------------------------------------:|:--------------------------------------:|
 | Diabetes_binary (당뇨병)         | PhysActivity (신체활동)         |
 | HighBP (고혈압)                 | Veggies (채소 섭취)             |
 | HighChol (고지혈증)             | Education (학력 수준)           |
